@@ -1,0 +1,67 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.4.7 (Oracle Corporation Java 15.0.2)
+[debug]       Load.loadUnit: plugins took 87.565125ms
+[debug]       Load.loadUnit: defsScala took 0.322125ms
+[debug] [Loading] Scanning directory /Users/mark/.sbt/1.0/plugins
+[debug]         Load.loadUnit: mkEval took 4.813166ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/mark/.sbt/1.0/plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 24.694958 ms
+[info] loading settings for project global-plugins from idea.sbt ...
+[debug]           Load.resolveProject(global-plugins) took 45.266208ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /Users/mark/.sbt/1.0/plugins, plugins: List(<none>))) took 95.122042ms
+[debug] [Loading] Done in /Users/mark/.sbt/1.0/plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 198.143708ms
+[debug]       Load.loadUnit: cleanEvalClasses took 9.463708ms
+[debug]     Load.loadUnit(file:/Users/mark/.sbt/1.0/plugins/, ...) took 305.613792ms
+[debug]   Load.apply: load took 909.908208ms
+[debug]   Load.apply: resolveProjects took 3.311459ms
+[debug]   Load.apply: finalTransforms took 102.233458ms
+[debug]   Load.apply: config.delegates took 5.141667ms
+[debug]   Load.apply: Def.make(settings)... took 1104.887584ms
+[debug]   Load.apply: structureIndex took 174.858417ms
+[debug]   Load.apply: mkStreams took 0.813292ms
+[info] loading global plugins from /Users/mark/.sbt/1.0/plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 4558.0665ms
+[debug]           Load.loadUnit: plugins took 28.702167ms
+[debug]           Load.loadUnit: defsScala took 0.002542ms
+[debug] [Loading] Scanning directory /Users/mark/Downloads/AkkaApiVersionTweetPerFile-main/project
+[debug]             Load.loadUnit: mkEval took 0.80425ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /Users/mark/Downloads/AkkaApiVersionTweetPerFile-main/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(List(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin))), Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin))), Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin))), Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin))), Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 12.589333 ms
+[info] loading settings for project akkaapiversiontweetperfile-main-build from plugins.sbt ...
+[debug]               Load.resolveProject(akkaapiversiontweetperfile-main-build) took 5.00625ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id akkaapiversiontweetperfile-main-build, base: /Users/mark/Downloads/AkkaApiVersionTweetPerFile-main/project, plugins: List(<none>))) took 25.826375ms
+[debug] [Loading] Done in /Users/mark/Downloads/AkkaApiVersionTweetPerFile-main/project, returning: (akkaapiversiontweetperfile-main-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 87.344916ms
+[debug]           Load.loadUnit: cleanEvalClasses took 2.57875ms
+[debug]         Load.loadUnit(file:/Users/mark/Downloads/AkkaApiVersionTweetPerFile-main/project/, ...) took 119.293667ms
+[debug]       Load.apply: load took 123.999666ms
+[debug]       Load.apply: resolveProjects took 0.185583ms
+[debug]       Load.apply: finalTransforms took 25.518458ms
+[debug]       Load.apply: config.delegates took 1.0385ms
+[debug]       Load.apply: Def.make(settings)... took 312.207958ms
+[debug]       Load.apply: structureIndex took 59.74925ms
+[debug]       Load.apply: mkStreams took 0.002167ms
+[info] loading project definition from /Users/mark/Downloads/AkkaApiVersionTweetPerFile-main/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] There may be incompatibilities among your library dependencies; run 'evicted' to see detailed eviction warnings.
+[debug]     Load.loadUnit: plugins took 3863.649583ms
+[debug]     Load.loadUnit: defsScala took 0.036208ms
+[debug] [Loading] Scanning directory /Users/mark/Downloads/AkkaApiVersionTweetPerFile-main
+[debug]       Load.loadUnit: mkEval took 1.219916ms

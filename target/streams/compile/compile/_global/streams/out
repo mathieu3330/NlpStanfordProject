@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0mD:\perso\play-api\app\tfIdf\TermFrequency.java:85:1:  error: cannot find symbol[0m
+[0m[[0m[31merror[0m] [0m[0m        dirFilesIDF = TermFrequency.tweetListIDF(tweetList);[0m
+[0m[[0m[31merror[0m] [0m[0m                                   ^  symbol:   method tweetListIDF(List<Tweet>)[0m
+[0m[[0m[31merror[0m] [0m[0m  location: class TermFrequency[0m
+[0m[[0m[31merror[0m] [0m[0m1 error[0m
